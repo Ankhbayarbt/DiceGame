@@ -55,7 +55,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
   scores[activePlayer] += roundScore;
   document.getElementById("score-" + activePlayer).textContent =
     scores[activePlayer];
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 50) {
     document.getElementById("name-" + activePlayer).textContent = "Winner!!!";
     document
       .querySelector(".player-" + activePlayer + "-panel")
